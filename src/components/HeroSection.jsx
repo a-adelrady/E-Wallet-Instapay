@@ -229,7 +229,7 @@ export default function HeroSection({
                 })
               ) : (
                 <tr>
-                  <td className="px-4 pt-40 text-center" colSpan="7">
+                  <td className="ps-30 pt-25 md:px-4 md:pt-40 text-center" colSpan="7">
                     No transaction history available.
                   </td>
                 </tr>
