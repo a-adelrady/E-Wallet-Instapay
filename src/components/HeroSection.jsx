@@ -121,7 +121,7 @@ export default function HeroSection({
   };
 
   return (
-    <section className="w-full h-[188vh] md:h-[88vh] py-10">
+    <section className="w-full h-[138dvh] md:h-[88dvh] py-10">
       <Toaster position="top-center" reverseOrder={false} />
       <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-full gap-5 items-center text-white">
         <div className="col-span-1 grid grid-rows-2 h-full gap-5">
@@ -162,7 +162,7 @@ export default function HeroSection({
           </div>
         </div>
         <div
-          className={`col-span-1 lg:col-span-2 bg-white/15 h-screen md:h-full overflow-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden backdrop-blur-md border flex items-start justify-center border-white/25 rounded-2xl shadow-2xl p-8`}
+          className={`col-span-1 lg:col-span-2 bg-white/15 h-[50dvh] md:h-full overflow-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden backdrop-blur-md border flex items-start justify-center border-white/25 rounded-2xl shadow-2xl p-8`}
         >
           <table className="w-full text-white">
             <thead className="text-left hidden lg:table-header-group">

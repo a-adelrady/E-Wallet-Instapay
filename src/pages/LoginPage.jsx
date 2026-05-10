@@ -29,7 +29,7 @@ export default function LoginPage({ userInfo, setCurrentUser }) {
     navigate("/");
   };
   return (
-    <div className="w-full min-h-screen flex justify-center items-center">
+    <div className="w-full min-h-dvh flex justify-center items-center">
       <Toaster position="top-center" reverseOrder={false} />
       <div className="bg-white/15 backdrop-blur-md border flex flex-col items-center border-white/25 rounded-2xl shadow-2xl p-8 w-90">
         <img

@@ -27,7 +27,7 @@ export default function MainHeader({ setUserInfo, currentUser, setCurrentUser })
           src={logo}
           alt="InstaPay Logo"
         />
-        <nav>
+        <nav className="hidden md:block">
           <ul className="flex space-x-4">
             <li>
               <Link to="/" className="hover:text-purple-300">
